@@ -1,9 +1,4 @@
-"""junk_food = {"Junk Food1":"Hamburger","JunkFood2":"Pizza",}
-healthy_food ={"Healthy Food1":"Salad","Healthy Food2":"Tomato"}
-junk_and_healthy = [junk_food.values(),healthy_food.values()]
-print(f"{junk_and_healthy[0]} During Fridays")
-print(f"{junk_and_healthy[1]} Every other day for a healthy body")"""
-#other one
+
 robot_config = {
     # Main Dictionary Key: Category
     "motors": {
@@ -19,7 +14,7 @@ robot_config = {
 print(robot_config['motors']['right_wheel']['speed']) #should be 150
 #List inside fictionaries
 user_profile = {
-    "username": "Axel_Coder",
+    "username": "Lol123",
     "level": "Intermediate",
     "skills": ["Python", "Java", "WebDev", "Cybersecurity"], # <-- The list is here
     "last_login": "2025-12-10"
@@ -39,4 +34,5 @@ sensor_readings = [
     {"sensor_id": "P-45", "time": "14:00:03", "pressure": 10.1}
 ]
 get_pressure_third = sensor_readings[2]['pressure'] + 1
+
 print(get_pressure_third)
